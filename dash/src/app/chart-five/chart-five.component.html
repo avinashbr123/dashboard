@@ -1,0 +1,21 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <div class=" col-md-12  bg "><h1 class="text">Venders List API Data</h1></div>
+    </div>
+
+    <div class="row bodybg">
+        
+        <div class="col-md-offset-4 col-md-4 ">
+          <table class="table table-striped">
+            <tr *ngFor="let user of vendors">
+            <td>{{user.name}}</td>
+            
+            <td>{{user.vendor_url}}</td>
+            
+            
+          </tr>
+        </table>
+      </div>
+      </div>
+</div>
